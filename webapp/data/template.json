@@ -1,0 +1,15 @@
+{
+  "data": [{
+     	"Type":"extension",
+     	"TemplateName": "us-core-birthsex.json"
+    },{
+      "Type":"profile",
+      "TemplateName": "us-core-allergyintolerance.json"
+    },{
+      "Type":"schema",
+      "TemplateName": "Condition.schema.json"
+    },{
+      "Type":"schema",
+      "TemplateName": "DiagnosticReport.schema.json"
+    }]
+}

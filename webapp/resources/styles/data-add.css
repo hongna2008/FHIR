@@ -1,0 +1,88 @@
+.put-json{
+	padding:10px 20px;
+}
+.put-json span{
+	display:block;
+}
+.put-json input{
+	height:20px;
+	line-height:20px;
+	padding:4px 6px;
+	border:1px solid rgb(231, 228, 246);
+	border-radius:3px;
+	margin:5px 0;
+	width:90%;
+}
+.put-json-button{
+	text-align:center;
+	padding:0 0 20px 0;
+}
+.btn{
+	margin-left:15px;
+	cursor:pointer;
+	padding:3px 15px;
+	border-radius:5px;
+	background:#82A1D0;
+	color:#fff;
+	vertical-align:middle;
+	user-select:none;
+	font-size:13px;
+}
+.btn:hover{
+	background:#26608A;
+}
+.update{
+	border-bottom:7px solid transparent;
+	border-left:7px solid #31b12f;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.ztree li a.put-add,
+.ztree li a.put-del{
+	cursor:pointer;
+	text-decoration: none;
+	font-weight:bold;
+	border-radius:50%;
+	text-align:center;
+	width:15px;
+	height:15px;
+	line-height:15px;
+	padding:0px;
+	background:#6354d2;
+	color:#fff;
+	margin-right:5px;
+}
+.putTemplate{
+	padding:20px;
+	position: relative;
+}
+.tempalte{
+	position: relative;
+}
+.tempalte.left{
+	left:0px;
+	width:50%;
+	float:left;
+}
+.tempalte.sp{
+	left:50%;
+	height:97%;
+	width:1px;
+	background:#ccc;
+	position:absolute;
+	top:0;
+	min-height:500px;
+}
+.tempalte.right{
+	left:50%;
+	width:50%;
+}
+#preview{
+	position: absolute;
+	left:20px;
+	top:30px;
+	width:90%;
+	height:80%;
+}

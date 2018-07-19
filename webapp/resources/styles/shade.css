@@ -1,0 +1,32 @@
+.ifm-window{
+	z-index:9;
+	position:absolute;
+}
+.ifm-header{
+	padding:5px 0 5px 10px;
+	background:#7CA3EE;
+	color:rgb(255,255,255);
+	font-weight:bold;
+}
+.ifm-close{
+	cursor:pointer;
+	position:absolute;
+	right:10px;
+	top:5px;
+	font-size:20px;
+}
+.ifm-shade{
+	top:0;
+	left:0;
+	background:rgb(128,128,128);
+  	opacity: .3;
+  	filter: alpha(opacity=30);
+	position:fixed;
+	display:none;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
+.ifm-body{
+	background:#fff;
+}

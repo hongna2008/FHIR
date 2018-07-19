@@ -1,0 +1,66 @@
+.btn{
+	margin-left:15px;
+	cursor:pointer;
+	padding:3px 15px;
+	border-radius:5px;
+	background:#82A1D0;
+	color:#fff;
+	vertical-align:middle;
+	user-select:none;
+	font-size:13px;
+}
+.btn:hover{
+	background:#26608A;
+}
+.putTemplate{
+	padding:10px;
+	height:500px;
+	overflow:auto;
+}
+.tempalte{
+	width:50%;
+	float:left;
+}
+#zTree{
+	border-right:2px solid #ccc;
+}
+.ztree li a:hover{
+	text-decoration: none;
+}
+.ztree li a.add-item,
+.ztree li a.del-item{
+	cursor:pointer;
+	text-decoration: none;
+	font-weight:bold;
+	border-radius:50%;
+	text-align:center;
+	width:12px;
+	height:12px;
+	line-height:8px;
+	padding:0px;
+	background:#6354d2;
+	color:#fff;
+	margin-left:5px;
+	font-size:15px;
+	font-family: -webkit-body;
+}
+.chk{
+	height:12px;
+	width:12px;
+	vertical-align:middle;
+	margin-left:3px;
+}
+
+#zTree .curSelectedNode,
+#zTreeExt .curSelectedNode{
+	background: transparent;
+	border:none;
+}
+.template-item-add{
+	padding:10px 20px;
+	margin:0 auto;
+	width:70%;
+}
+.template-item-add div{
+	padding:5px 0;
+}
